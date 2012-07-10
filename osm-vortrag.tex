@@ -84,7 +84,7 @@
     \pause
     \begin{itemize}
         \item Ursprünglich: CC"=BY"=SA
-        \item Seit April 2012: ODbL\footnote<2->{Open Database License}
+        \item Seit Juli 2012: ODbL\footnote<2->{Open Database License}
     \end{itemize}
 
     \pause
@@ -106,7 +106,7 @@
 
     PS: Bei Google Maps ist das übrigens soweit ich weiß für private, nicht"=kommerzielle Zwecke gestattet.
 
-    \href{http://www.osmfoundation.org/wiki/License/Contributor\_Terms}{Contributor Terms}, \href{http://opendatacommons.org/licenses/dbcl/1.0/}{Database Contents License (DbCL)}, \href{http://opendatacommons.org/licenses/odbl/}{Open Data Commons Open Database License (ODbL)}
+    \href{http://www.osmfoundation.org/wiki/License/Contributor\_Terms}{Contributor Terms}, \href{http://opendatacommons.org/licenses/dbcl/1.0/}{Database Contents License (DbCL)}, \href{http://opendatacommons.org/licenses/odbl/}{Open Data Commons Open Database License (ODbL)}, \href{http://wiki.openstreetmap.org/wiki/Open\_Database\_License}{Infos in der OSM"=Wiki}
 }
 
 \begin{frame}{Organisation}
@@ -229,7 +229,7 @@
     \begin{itemize}
         \item Unterschiedliche Meinungen
         \item Langwieriger Umstellungsprozess (u.a. jeder muss zustimmen/ablehnen)
-        \item Schrittweise Umstellung seit 1. April 2012
+        \item Schrittweise Umstellung seit 11. Juli 2012
     \end{itemize}
 
     \pause
@@ -249,9 +249,10 @@
 
     Möglichkeiten: OSMF kann für alle entscheiden, zukünftig kein Datenverlust mehr, umfangreicherer Schutz der Daten, da nicht nur auf Urheberrecht gestützt
 
-    Die Umstellung begann mit einem Wechsel in einen Read"=Only"=Modus für einige Tage, während der Datenbankserver getauscht wurde. Anschließend sperrt ein Bot Stück für Stück im Live"=Betrieb Daten mit Lizenzinkompatibilität, man kann die Daten also nicht mehr über die normale API herunterladen und sie sind auch nicht in den Planet"=Files.
+    Die Umstellung begann am 1. April mit einem Wechsel in einen Read"=Only"=Modus für einige Tage, während der Datenbankserver getauscht wurde. Anschließend sollte ein Bot Stück für Stück im Live"=Betrieb Daten mit Lizenzinkompatibilität sperren, man kann die Daten also nicht mehr über die normale API herunterladen und sie sind auch nicht in den Planet"=Files (allerdings existieren sie noch in der internen Datenbank, falls es z.B. zu gerichtlichen Prozessen wegen Unklarheiten o.ä. kommt).\\
+    Dieser Bot war zum geplanten Zeitpunkt allerdings noch nicht fertig. Zwar gab es schon erste Ergebnisse, allerdings schlugen noch einige Tests fehl. Erst im Juli 2012 waren alle Tests erfolgreich, sodass der Bot ab dem 11. Juli 2012 arbeitete. %TODO
 
-    Weitere Infos: \href{http://wiki.openstreetmap.org/wiki/Openi\_Data\_License/Implementation\_Plan}{Implementation Plan}, \href{http://wiki.openstreetmap.org/wiki/Open\_Database\_License/Changes\_in\_the\_API}{Changes in the API}
+    Weitere Infos: \href{http://wiki.openstreetmap.org/wiki/Open\_Data\_License/Implementation\_Plan}{Implementation Plan}, \href{http://wiki.openstreetmap.org/wiki/Open\_Database\_License/Changes\_in\_the\_API}{Changes in the API}, \href{http://blog.osmfoundation.org/2012/07/09/licence-redaction-ready/}{Ankündigung im OSMF"=Blog}
 }
 
 \section{Technik}
