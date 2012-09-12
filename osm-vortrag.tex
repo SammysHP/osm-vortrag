@@ -20,7 +20,7 @@
 \title{OpenStreetMap}
 \subtitle{Einführung in die Welt der freien Karte}
 \author{Sven Karsten Greiner\\ \href{http://www.sammyshp.de/}{\tiny www.sammyshp.de}}
-\date[10.07.2012]{Stand: 10. Juni 2012}
+\date[10.07.2012]{Stand: 12. September 2012}
 
 \logo{\includegraphics[height=3cm]{osm-logo-gradient.png}}
 
@@ -84,7 +84,7 @@
     \pause
     \begin{itemize}
         \item Ursprünglich: CC"=BY"=SA
-        \item Seit Juli 2012: ODbL\footnote<2->{Open Database License}
+        \item Seit 12. September 2012: ODbL\footnote<2->{Open Database License}
     \end{itemize}
 
     \pause
@@ -230,6 +230,7 @@
         \item Unterschiedliche Meinungen
         \item Langwieriger Umstellungsprozess (u.a. jeder muss zustimmen/ablehnen)
         \item Schrittweise Umstellung seit 11. Juli 2012
+        \item Offizieller Wechsel am 12. September 2012
     \end{itemize}
 
     \pause
@@ -248,9 +249,14 @@
     Die Bezogenheit auf den Einzelnen der CC ist auch der Grund, warum jetzt jeder einzeln zustimmen muss. Die Zustimmung ist bei Anmeldung seit Mai 2010 Pflicht bzw. seit April 2011 für alte Accounts, wenn man etwas bearbeiten will. Wer nicht zustimmt, dessen Daten müssen gelöscht werden. Das ist ein komplizierter Prozess, denn: Wann sind alte Bearbeitungen nicht mehr relevant? Wem gehört die Geometrie, wem die Eigenschaften? Wie kann man einer Inkonsistenz der Daten entgegenwirken (z.B. Nodes an Kreuzungen)?
 
     Möglichkeiten: OSMF kann für alle entscheiden, zukünftig kein Datenverlust mehr, umfangreicherer Schutz der Daten, da nicht nur auf Urheberrecht gestützt
+}
 
-    Die Umstellung begann am 1. April mit einem Wechsel in einen Read"=Only"=Modus für einige Tage, während der Datenbankserver getauscht wurde. Anschließend sollte ein Bot Stück für Stück im Live"=Betrieb Daten mit Lizenzinkompatibilität sperren, man kann die Daten also nicht mehr über die normale API herunterladen und sie sind auch nicht in den Planet"=Files (allerdings existieren sie noch in der internen Datenbank, falls es z.B. zu gerichtlichen Prozessen wegen Unklarheiten o.ä. kommt).\\
-    Dieser Bot war zum geplanten Zeitpunkt allerdings noch nicht fertig. Zwar gab es schon erste Ergebnisse, allerdings schlugen noch einige Tests fehl. Erst im Juli 2012 waren alle Tests erfolgreich, sodass der Bot ab dem 11. Juli 2012 arbeitete. %TODO
+\notepage{
+    Die Umstellung begann am 1. April mit einem Wechsel in einen Read"=Only"=Modus für einige Tage, während der Datenbankserver getauscht wurde. Anschließend sollte ein Bot Stück für Stück im Live"=Betrieb Daten mit Lizenzinkompatibilität sperren, man kann die Daten also nicht mehr über die normale API herunterladen und sie sind auch nicht in den Planet"=Files (allerdings existieren sie noch in der internen Datenbank, falls es z.B. zu gerichtlichen Prozessen wegen Unklarheiten o.ä. kommt).
+    
+    Dieser Bot war zum geplanten Zeitpunkt allerdings noch nicht fertig. Zwar gab es schon erste Ergebnisse, allerdings schlugen noch einige Tests fehl. Erst im Juli 2012 waren alle Tests erfolgreich, sodass der Bot ab dem 11. Juli 2012 arbeitete. Nach einigen weiteren Anpassungen während der Laufzeit, war der Bot bereits nach zwei Wochen \href{http://blog.osmfoundation.org/2012/07/26/automated-redactions-complete/}{am 26. Juli} fertig. Später wurden Copy\&Paste"=Änderungssätze durch einen zweiten Bot entfernt.
+    
+    Am \href{http://blog.osmfoundation.org/2012/09/11/change-to-odbl-imminent/}{12. September 2012} fand schließlich der offizielle Wechsel zur ODbL statt.
 
     Weitere Infos: \href{http://wiki.openstreetmap.org/wiki/Open\_Data\_License/Implementation\_Plan}{Implementation Plan}, \href{http://wiki.openstreetmap.org/wiki/Open\_Database\_License/Changes\_in\_the\_API}{Changes in the API}, \href{http://blog.osmfoundation.org/2012/07/09/licence-redaction-ready/}{Ankündigung im OSMF"=Blog}
 }
