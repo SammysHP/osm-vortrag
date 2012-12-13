@@ -24,3 +24,6 @@ tmp*/
 *.synctex.gz
 *~
 *.swp
+*.fls
+*.nav
+*.snm

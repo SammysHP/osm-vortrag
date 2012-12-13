@@ -14,13 +14,13 @@
 \usepackage[absolute, overlay]{textpos}
 
 %% Mit Notizen
-\setbeameroption{show notes}
-\hypersetup{pdfborder={0 0 0.5}, urlbordercolor={1 0 0}, linkbordercolor={1 1 1}}
+% \setbeameroption{show notes}
+% \hypersetup{pdfborder={0 0 0.5}, urlbordercolor={1 0 0}, linkbordercolor={1 1 1}}
 
 \title{OpenStreetMap}
 \subtitle{Einführung in die Welt der freien Karte}
 \author{Sven Karsten Greiner\\ \href{http://www.sammyshp.de/}{\tiny www.sammyshp.de}}
-\date[10.07.2012]{Stand: 12. September 2012}
+\date[13.12.2012]{13. Dezember 2012}
 
 \logo{\includegraphics[height=3cm]{osm-logo-gradient.png}}
 
@@ -71,7 +71,7 @@
     \vfill
 
     \pause
-    \centerline{Inzwischen über 550~000 User und 1~500~000~000 Objekte.}
+    \centerline{Inzwischen über 900~000 User und 2~000~000~000 Objekte.}
 
     \vfill
 \end{frame}
@@ -80,6 +80,7 @@
     Es existieren unzählige weiteren Informationen, z.B. Verlinkungen zu Wikipedia"=Einträgen, Geschwindigkeitsbegrenzungen, Begehungsrechte/Öffnungszeiten, TMC"=Informationen, Objekte wie Türme, Kraftwerke, Bushaltestellen, ÖPNV"=Netze, \ldots
 }
 
+% TODO
 \begin{frame}{Lizenz}
     \pause
     \begin{itemize}
@@ -236,7 +237,7 @@
     \pause
 
     \begin{itemize}
-        \item Letztendlich: Großer Datenverlust
+        \item Letztendlich: Datenverlust
         \item Aber auch neue Möglichkeiten!
     \end{itemize}
 \end{frame}
@@ -292,18 +293,6 @@
     Interessante Übersicht zu den Servern: \url{http://wiki.openstreetmap.org/wiki/Servers}
 }
 
-\begin{frame}{Map Rendering}
-    \begin{textblock}{10}(1,3)
-        \includegraphics[height=7cm]{OSM_Components.png}
-    \end{textblock}
-\end{frame}
-
-\notepage{
-    Quelle der Grafik: \url{http://wiki.openstreetmap.org/wiki/File:OSM\_Components.png}, Version vom 6. November 2011, 14:12 von Saerdnaer, modifiziert (Hintergrund transparent).
-    
-    Einen weiteren Überblick gibt es auf \url{http://wiki.openstreetmap.org/wiki/Component\_overview}
-}
-
 \begin{frame}{Datenzugriff}
     \pause
     \begin{block}{Export}
@@ -353,6 +342,18 @@
         \item In Editoren für lokale Betrachtung
     \end{itemize}
 \end{frame}
+
+\begin{frame}{Map Rendering}
+    \begin{textblock}{10}(1,3)
+        \includegraphics[height=7cm]{OSM_Components.png}
+    \end{textblock}
+\end{frame}
+
+\notepage{
+    Quelle der Grafik: \url{http://wiki.openstreetmap.org/wiki/File:OSM\_Components.png}, Version vom 6. November 2011, 14:12 von Saerdnaer, modifiziert (Hintergrund transparent).
+    
+    Einen weiteren Überblick gibt es auf \url{http://wiki.openstreetmap.org/wiki/Component\_overview}
+}
 
 \begin{frame}{Slippy Map}
     \begin{itemize}
@@ -562,9 +563,9 @@
 \begin{frame}{Bearbeitung}
     \begin{itemize}
         \item Vielfältige Möglichkeiten
-        \vfill\pause
+        \vfill
         \item Desktopanwendungen, Apps, Scripts, \ldots
-        \vfill\pause
+        \vfill
         \item Zwei Editoren haben sich durchgesetzt:
             \begin{itemize}
                 \item Potlatch (Browser)
@@ -659,19 +660,35 @@
 \section*{Anhang}
 
 \begin{frame}
-    \begin{block}{Erstellt mit freier Software}
-        \begin{itemize}
-            \item \LaTeX
-            \item GIMP, UMLet
-            \item Ubuntu
-        \end{itemize}
+    \begin{block}{Download}
+        \centering
+        \textbf{\url{http://sammyshp.de/s/osmv}}
+
     \end{block}
-    
-    \begin{block}{Lizenz}
-        CC"=BY"=NC"=SA
-    \end{block}
+
+    \begin{columns}[t]
+        \hspace{2mm}
+        \begin{column}{6cm}
+            \begin{block}{Erstellt mit freier Software}
+                \scriptsize
+                \begin{itemize}
+                    \item \LaTeX
+                    \item GIMP, UMLet
+                    \item Ubuntu
+                \end{itemize}
+            \end{block}
+        \end{column}
+        
+        \begin{column}{3.8cm}
+            \begin{block}{Lizenz}
+                \scriptsize
+                CC-BY-SA
+            \end{block}
+        \end{column}
+    \end{columns}
     
     \begin{block}{Quellen}
+        \scriptsize
         \begin{itemize}
             \item \url{http://openstreetmap.org/}
             \item \url{http://wiki.openstreetmap.org/}
